@@ -1,0 +1,1 @@
+ffmpeg -accurate_seek -y -i 3Z5IOKVt_CI.webm -acodec copy -strict -2 -vf "setpts=PTS-STARTPTS,crop=1536:1080:87:0" -vsync 0 3Z5IOKVt_CI.webm_det.txt_crop.mp4
